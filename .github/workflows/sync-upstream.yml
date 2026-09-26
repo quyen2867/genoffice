@@ -1,0 +1,63 @@
+name: Sync upstream
+
+# Auto-update theo repo gốc genspark-ai/genoffice:
+# - Chạy mỗi ngày lúc 02:00 UTC (09:00 giờ VN) + nút bấm tay (workflow_dispatch).
+# - Merge upstream/main vào main rồi push. Merge sạch thì xong, không cần đụng tay.
+# - Nếu conflict (thường do file rebrand trùng chỗ upstream sửa), job tự mở
+#   GitHub Issue báo để xử lý tay, không force-push, không mất code.
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Merge upstream/main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -u
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/genspark-ai/genoffice.git
+          git fetch upstream main
+          LOCAL="$(git rev-parse HEAD)"
+          REMOTE="$(git rev-parse upstream/main)"
+          BASE="$(git merge-base HEAD upstream/main)"
+          if [ "$LOCAL" = "$REMOTE" ]; then
+            echo "Already up to date with upstream."
+            exit 0
+          fi
+          if [ "$LOCAL" = "$BASE" ]; then
+            git merge --ff-only upstream/main
+            git push origin main
+            echo "Fast-forwarded to $REMOTE."
+            exit 0
+          fi
+          if git merge --no-edit upstream/main; then
+            git push origin main
+            echo "Merged upstream/main ($REMOTE)."
+          else
+            git merge --abort
+            gh issue create \
+              --title "Upstream sync can xu ly tay ($(date +%F))" \
+              --body "Auto-merge \`upstream/main\` ($REMOTE) vao \`main\` ($LOCAL) bi conflict. Chay tay: \`git fetch upstream && git merge upstream/main\`, giai quyet conflict roi push. Xem log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo "Conflict -> opened an issue, manual resolution needed."
+          fi
