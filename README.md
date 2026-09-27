@@ -2,325 +2,277 @@
   <a href="https://genoffice.ai/">
     <picture>
       <source srcset="docs/assets/readme/hero-dark.webp" media="(prefers-color-scheme: dark)">
-      <img src="docs/assets/readme/hero.webp" alt="GenOffice — the open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML with a built-in AI panel" width="100%">
+      <img src="docs/assets/readme/hero.webp" alt="GenOffice — bộ ứng dụng văn phòng AI mã nguồn mở: Docs, Sheets, Slides, PDF, Markdown và HTML với panel AI tích hợp sẵn" width="100%">
     </picture>
   </a>
 </p>
-
 <h1 align="center">GenOffice</h1>
-
-> Community fork of [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) — synced with upstream daily via GitHub Actions (`Sync upstream` workflow).
-
-<p align="center"><b>The world's first full-featured open-source AI Office suite.</b><br>
-Word, Excel, PowerPoint and PDF files, edited by you and your AI, saved back in the real formats.</p>
-
+<p align="center"><b>Bộ ứng dụng văn phòng AI mã nguồn mở đầy đủ tính năng đầu tiên trên thế giới.</b><br>
+File Word, Excel, PowerPoint và PDF — bạn và AI cùng chỉnh sửa, lưu lại đúng định dạng gốc.</p>
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/quyen2867/genoffice" alt="License: Apache-2.0"></a>
-  <a href="https://github.com/quyen2867/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/quyen2867/genoffice" alt="Latest release"></a>
-  <a href="https://github.com/quyen2867/genoffice/releases"><img src="https://img.shields.io/github/downloads/quyen2867/genoffice/total" alt="Downloads"></a>
-  <a href="https://github.com/quyen2867/genoffice/stargazers"><img src="https://img.shields.io/github/stars/quyen2867/genoffice?style=flat" alt="GitHub stars"></a>
-  <a href="https://x.com/merrickbuilds"><img src="https://img.shields.io/badge/follow-%40merrickbuilds-000000?logo=x&logoColor=white" alt="Follow @merrickbuilds on X"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/quyen2867/genoffice" alt="Giấy phép: Apache-2.0"></a>
+  <a href="https://github.com/quyen2867/genoffice/releases/latest"><img src="https://img.shields.io/github/v/release/quyen2867/genoffice" alt="Bản phát hành mới nhất"></a>
+  <a href="https://github.com/quyen2867/genoffice/releases"><img src="https://img.shields.io/github/downloads/quyen2867/genoffice/total" alt="Lượt tải"></a>
+  <a href="https://github.com/quyen2867/genoffice/stargazers"><img src="https://img.shields.io/github/stars/quyen2867/genoffice?style=flat" alt="Sao GitHub"></a>
+  <a href="https://x.com/merrickbuilds"><img src="https://img.shields.io/badge/follow-%40merrickbuilds-000000?logo=x&logoColor=white" alt="Theo dõi @merrickbuilds trên X"></a>
 </p>
-
-<p align="center"><b>English</b> · <a href="docs/i18n/README.es.md">Español</a> · <a href="docs/i18n/README.pt-BR.md">Português (Brasil)</a> · <a href="docs/i18n/README.de.md">Deutsch</a> · <a href="docs/i18n/README.fr.md">Français</a> · <a href="docs/i18n/README.zh-CN.md">简体中文</a> · <a href="docs/i18n/README.zh-TW.md">繁體中文</a> · <a href="docs/i18n/README.ko.md">한국어</a> · <a href="docs/i18n/README.ja.md">日本語</a> · <a href="docs/i18n/README.ar.md">العربية</a> · <a href="docs/i18n/README.ru.md">Русский</a> · <a href="docs/i18n/README.it.md">Italiano</a> · <a href="docs/i18n/README.nl.md">Nederlands</a> · <a href="docs/i18n/README.pl.md">Polski</a> · <a href="docs/i18n/README.cs.md">Čeština</a> · <a href="docs/i18n/README.id.md">Bahasa Indonesia</a> · <a href="docs/i18n/README.ms.md">Bahasa Melayu</a> · <a href="docs/i18n/README.th.md">ไทย</a> · <a href="docs/i18n/README.hi.md">हिन्दी</a> · <a href="docs/i18n/README.he.md">עברית</a></p><!-- lang-switcher · public-hygiene: allow -->
-
+<p align="center"><b>Tiếng Việt</b> · <a href="https://github.com/genspark-ai/genoffice/blob/main/README.md">English</a> · <a href="docs/i18n/README.es.md">Español</a> · <a href="docs/i18n/README.pt-BR.md">Português (Brasil)</a> · <a href="docs/i18n/README.de.md">Deutsch</a> · <a href="docs/i18n/README.fr.md">Français</a> · <a href="docs/i18n/README.zh-CN.md">简体中文</a> · <a href="docs/i18n/README.zh-TW.md">繁體中文</a> · <a href="docs/i18n/README.ko.md">한국어</a> · <a href="docs/i18n/README.ja.md">日本語</a> · <a href="docs/i18n/README.ar.md">العربية</a> · <a href="docs/i18n/README.ru.md">Русский</a> · <a href="docs/i18n/README.it.md">Italiano</a> · <a href="docs/i18n/README.nl.md">Nederlands</a> · <a href="docs/i18n/README.pl.md">Polski</a> · <a href="docs/i18n/README.cs.md">Čeština</a> · <a href="docs/i18n/README.id.md">Bahasa Indonesia</a> · <a href="docs/i18n/README.ms.md">Bahasa Melayu</a> · <a href="docs/i18n/README.th.md">ไทย</a> · <a href="docs/i18n/README.hi.md">हिन्दी</a> · <a href="docs/i18n/README.he.md">עברית</a></p><!-- lang-switcher · public-hygiene: allow -->
 <p align="center">
-  <a href="#download"><b>Download</b></a> ·
+  <a href="#tải-xuống"><b>Tải về</b></a> ·
   <a href="#command-line-and-agent-skill"><b>CLI</b></a> ·
   <a href="#mcp-server"><b>MCP</b></a> ·
-  <a href="https://genoffice.ai/"><b>Website</b></a> ·
-  <a href="https://genoffice.ai/join"><b>Community</b></a> ·
+  <a href="https://genoffice.ai/"><b>Trang web</b></a> ·
+  <a href="https://genoffice.ai/join"><b>Cộng đồng</b></a> ·
   <a href="https://x.com/merrickbuilds"><b>X</b></a> ·
-  <a href="PRIVACY.md"><b>Privacy</b></a>
+  <a href="PRIVACY.md"><b>Quyền riêng tư</b></a>
 </p>
-
-GenOffice is a free, open-source alternative to Microsoft Office for macOS,
-Windows and Linux. It opens and saves native `.docx`, `.xlsx` and `.pptx`
-files, edits PDF, Markdown and HTML, and puts an AI agent next to every
-document — not a chat box bolted on the side, but an editor that reads the
-file, makes the change, and shows you exactly what it touched.
-
-- **Real formats, byte-preserving.** Only what you edit is rewritten. Everything
-  else in the file survives byte-for-byte, so documents keep working in Word,
-  Excel and PowerPoint.
-- **AI you can review.** Edits land as tracked changes and diffs with one-click
-  rollback. Spreadsheets get live formulas, not pasted numbers. Decks and pages
-  are generated onto the canvas and stay fully editable.
-- **Local by design.** Files open, edit, save and convert on your machine.
-  PDF → Word / Excel / PowerPoint, Markdown → Word and HTML → Word all run
-  on-device. Only the AI calls leave the machine, to the provider you choose.
-- **Find files by what they say.** The home screen searches the names,
-  folders and full text of your `.docx`, `.xlsx`, `.pptx`, PDF, Markdown and
-  HTML files from a local SQLite index, CJK included. Optionally, the top hits
-  are reranked by **[TypeSafe Jev](https://typesafe.ai/)**, the System One
-  judgment model, so the file that answers your question comes first.
-- **Your keys or none.** Sign in with Genspark and skip keys, or bring your own
-  key for Claude, OpenAI, Gemini, DeepSeek, Kimi, GLM, Qwen, Doubao, MiniMax,
-  Grok, Mistral, OpenRouter, Requesty, Opper, or any OpenAI-compatible endpoint, local
-  servers included.
-- **Scriptable and agent-ready.** The app ships a `genoffice` command line and
-  a skill for Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode
-  and Windsurf, so a coding agent can create, convert, read and edit real
-  Office files on your machine without opening a window.
-
-**Get it:** [macOS](https://github.com/quyen2867/genoffice/releases/latest) (Apple Silicon and Intel) ·
-[Windows](https://github.com/quyen2867/genoffice/releases/latest) (x64 and Arm) ·
-[Linux](https://github.com/quyen2867/genoffice/releases/latest) (deb, rpm, AppImage) —
-details and requirements in [Download](#download).
-
-## Demo
-
-Six apps, one AI panel, a file search reranked by TypeSafe Jev, and a
-command line for your coding agent. Every
-screenshot is the real app on macOS, with the AI driven from the prompt you
-can read in the panel.
-
-### 1 · Docs — open and edit `.docx` with an AI you can review
-
+GenOffice là giải pháp thay thế miễn phí, mã nguồn mở cho Microsoft Office trên
+macOS, Windows và Linux. Nó mở và lưu file .docx, .xlsx và .pptx gốc,
+chỉnh sửa PDF, Markdown và HTML, đồng thời đặt một AI agent ngay cạnh mỗi tài
+liệu — không phải khung chat gắn thêm cho có, mà là một trình soạn thảo đọc
+file, thực hiện thay đổi và cho bạn thấy chính xác những gì nó đã chạm vào.
+Định dạng gốc, giữ nguyên từng byte. Chỉ phần bạn chỉnh sửa mới được ghi
+  lại. Mọi thứ còn lại trong file được giữ nguyên từng byte, nên tài liệu vẫn
+  mở ngon lành trong Word, Excel và PowerPoint.
+AI mà bạn kiểm soát được. Mọi chỉnh sửa hiển thị dưới dạng theo dõi thay
+  đổi (tracked changes) và diff, hoàn tác chỉ bằng một cú nhấp. Bảng tính dùng
+  công thức thật, không phải số dán cứng. Slide và trang web được dựng trực
+  tiếp lên canvas và vẫn chỉnh sửa đầy đủ được.
+Cục bộ ngay từ thiết kế. Mở, sửa, lưu và chuyển đổi file ngay trên máy
+  của bạn. PDF → Word / Excel / PowerPoint, Markdown → Word và HTML → Word đều
+  chạy trên thiết bị. Chỉ các lệnh gọi AI mới rời khỏi máy, tới nhà cung cấp do
+  bạn chọn.
+Tìm file theo nội dung. Màn hình chính tìm kiếm theo tên, thư mục và toàn
+  văn nội dung file .docx, .xlsx, .pptx, PDF, Markdown và HTML của bạn từ
+  chỉ mục SQLite cục bộ, hỗ trợ cả CJK. Tuỳ chọn: các kết quả hàng đầu được xếp
+  hạng lại bởi TypeSafe Jev, mô hình đánh giá
+  System One, để file trả lời đúng câu hỏi của bạn lên đầu tiên.
+Dùng key của bạn, hoặc không cần key. Đăng nhập bằng Genspark để khỏi cần
+  key, hoặc dùng key của riêng bạn cho Claude, OpenAI, Gemini, DeepSeek, Kimi,
+  GLM, Qwen, Doubao, MiniMax, Grok, Mistral, OpenRouter, Requesty, Opper, hay
+  bất kỳ endpoint tương thích OpenAI nào, kể cả server chạy local.
+Viết script được, sẵn sàng cho agent. App đi kèm dòng lệnh genoffice và
+  skill cho Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode và
+  Windsurf, để coding agent có thể tạo, chuyển đổi, đọc và sửa file Office thật
+  ngay trên máy bạn mà không cần mở cửa sổ nào.
+Tải ngay: macOS (Apple Silicon và Intel) ·
+Windows (x64 và Arm) ·
+Linux (deb, rpm, AppImage) —
+chi tiết và yêu cầu hệ thống xem tại Tải về.
+Demo
+Sáu ứng dụng, một panel AI, tìm kiếm file được xếp hạng lại bởi TypeSafe Jev, và
+dòng lệnh cho coding agent của bạn. Mọi ảnh chụp màn hình đều là app thật trên
+macOS, với AI được điều khiển từ prompt mà bạn có thể đọc ngay trong panel.
+1 · Docs — mở và sửa .docx với AI mà bạn kiểm soát được
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/readme/docs-report.webp" alt="GenOffice Docs rendering a two-column annual-report page with a full-width cover image, shaded KPI table, header and footer, at 80% zoom with the AI panel collapsed"></td>
-<td width="50%"><img src="docs/assets/readme/docs-ai.webp" alt="GenOffice Docs: a company overview with a banner image; the AI tightened the Overview and inserted a new bulleted section, and the panel offers a one-click roll back"></td>
+<td width="50%"><img src="docs/assets/readme/docs-report.webp" alt="GenOffice Docs hiển thị trang báo cáo thường niên hai cột với ảnh bìa tràn chiều rộng, bảng KPI tô nền, header và footer, ở mức zoom 80% với panel AI thu gọn"></td>
+<td width="50%"><img src="docs/assets/readme/docs-ai.webp" alt="GenOffice Docs: trang tổng quan công ty với ảnh banner; AI đã gọn lại phần Tổng quan và chèn thêm mục gạch đầu dòng mới, panel có nút hoàn tác một cú nhấp"></td>
 </tr>
 <tr>
-<td><b>Opens the file as Word lays it out</b> — two-column sections, full-bleed images, shaded tables, headers and footers, pagination on Word's line metrics. Styles, comments, tracked changes, equations and ink round-trip untouched.</td>
-<td><b>Ask for the edit</b> — the AI reads the blocks it needs, rewrites the Overview and inserts a new bulleted section. Every AI turn is a snapshot you can roll back; with <b>Track changes</b> on, edits arrive as Word-style revisions.</td>
+<td><b>Mở file đúng như Word trình bày</b> — mục hai cột, ảnh tràn lề, bảng tô nền, header và footer, phân trang theo chuẩn dòng của Word. Style, bình luận, theo dõi thay đổi, công thức và nét vẽ tay đều giữ nguyên vẹn khi mở đi mở lại.</td>
+<td><b>Ra lệnh sửa</b> — AI đọc các khối cần thiết, viết lại phần Tổng quan và chèn mục gạch đầu dòng mới. Mỗi lượt AI là một snapshot có thể hoàn tác; khi bật <b>Theo dõi thay đổi</b>, các chỉnh sửa hiện lên như revision kiểu Word.</td>
 </tr>
 </table>
-
-### 2 · Sheets — `.xlsx` with live formulas and charts, not pasted numbers
-
+2 · Sheets — .xlsx với công thức thật và biểu đồ, không phải số dán cứng
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/readme/sheets-ai.webp" alt="GenOffice Sheets: the AI added a Summary sheet with revenue by region and category using SUMIF formulas, plus a column chart, and reports 43 applied changes with an Undo button"></td>
-<td width="50%"><img src="docs/assets/readme/sheets-qa.webp" alt="GenOffice Sheets: asked which region led Q2 revenue, the AI answers Europe with the category breakdown and cites the cells it used as links, next to the Orders sheet"></td>
+<td width="50%"><img src="docs/assets/readme/sheets-ai.webp" alt="GenOffice Sheets: AI đã thêm sheet Tổng hợp doanh thu theo khu vực và danh mục bằng công thức SUMIF, kèm biểu đồ cột, và báo 43 thay đổi đã áp dụng với nút Hoàn tác"></td>
+<td width="50%"><img src="docs/assets/readme/sheets-qa.webp" alt="GenOffice Sheets: khi được hỏi khu vực nào dẫn đầu doanh thu Q2, AI trả lời châu Âu kèm chi tiết theo danh mục và trích dẫn các ô đã dùng dưới dạng liên kết, bên cạnh sheet Đơn hàng"></td>
 </tr>
 <tr>
-<td><b>Build it</b> — from one sentence the agent adds a Summary sheet with real <code>SUMIF</code>s by region and category, inserts a column chart, and applies the 43 changes as a single undoable batch.</td>
-<td><b>Ask it</b> — questions about the workbook come back with the reasoning and the exact cells used as clickable citations. Under the hood: an in-house Rust <code>.xlsx</code> engine, pivot tables, slicers, conditional formatting and formula tracing.</td>
+<td><b>Dựng bảng</b> — chỉ từ một câu lệnh, agent thêm sheet Tổng hợp với <code>SUMIF</code> thật theo khu vực và danh mục, chèn biểu đồ cột, và áp dụng 43 thay đổi thành một batch hoàn tác được.</td>
+<td><b>Hỏi đáp</b> — câu hỏi về workbook được trả lời kèm lập luận và trích dẫn chính xác các ô đã dùng dưới dạng liên kết. Bên dưới: engine <code>.xlsx</code> viết bằng Rust của nhà làm, pivot table, slicer, định dạng có điều kiện và truy vết công thức.</td>
 </tr>
 </table>
-
-### 3 · Slides — from a prompt to a `.pptx` deck
-
-<img src="docs/assets/readme/slides-generate.webp" alt="Time-lapse of GenOffice Slides generating the Aurora Home investor deck: the AI plans the storyline in the panel, slides appear on the canvas one after another, and the finished deck ends on the closing ask" width="100%">
-
+3 · Slides — từ một prompt thành bộ slide .pptx
+<img src="docs/assets/readme/slides-generate.webp" alt="Ảnh tua nhanh GenOffice Slides đang dựng bộ slide gọi vốn Aurora Home: AI lên dàn ý câu chuyện trong panel, các slide hiện dần lên canvas, và bộ slide hoàn chỉnh kết thúc bằng lời kêu gọi đầu tư" width="100%">
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/readme/slides-cover.webp" alt="GenOffice Slides: the cover slide of an AI-generated Aurora Home investor deck on the canvas, with the original one-line prompt and the AI's summary of what it built in the panel"></td>
-<td width="50%"><img src="docs/assets/readme/slides-ai.webp" alt="GenOffice Slides: the designed closing slide of the same 11-slide deck, with the thumbnail strip on the left and the AI panel summarizing the storyline"></td>
+<td width="50%"><img src="docs/assets/readme/slides-cover.webp" alt="GenOffice Slides: slide bìa của bộ slide gọi vốn Aurora Home do AI dựng trên canvas, với prompt một dòng gốc và tóm tắt của AI về những gì đã làm trong panel"></td>
+<td width="50%"><img src="docs/assets/readme/slides-ai.webp" alt="GenOffice Slides: slide kết thúc đã thiết kế của cùng bộ 11 slide, với dải thumbnail bên trái và panel AI tóm tắt mạch câu chuyện"></td>
 </tr>
 <tr>
-<td><b>One line in</b> — "Create a 10-slide investor pitch deck for Aurora Home…". GenOffice plans the storyline, researches the numbers, and drafts every slide onto the canvas as a real <code>.pptx</code>.</td>
-<td><b>A finished deck out</b> — eleven designed slides with consistent typography, imagery and a closing call to action; keep editing with masters, layouts, smart guides and non-destructive cropping, or ask the panel to restyle, rewrite and reorder.</td>
+<td><b>Một dòng vào</b> — "Tạo bộ slide gọi vốn 10 slide cho Aurora Home…". GenOffice lên dàn ý, nghiên cứu số liệu và dựng từng slide lên canvas thành file <code>.pptx</code> thật.</td>
+<td><b>Bộ slide hoàn chỉnh ra</b> — mười một slide được thiết kế với typography, hình ảnh nhất quán và lời kêu gọi hành động ở cuối; tiếp tục chỉnh sửa với master, layout, smart guide và crop không phá huỷ, hoặc nhờ panel đổi phong cách, viết lại và sắp xếp lại.</td>
 </tr>
 </table>
-
-### 4 · PDF — edit PDF text in place, convert PDF to Word on-device
-
+4 · PDF — sửa text PDF ngay tại chỗ, chuyển PDF sang Word trên thiết bị
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/readme/pdf-edit.webp" alt="GenOffice PDF: Edit text mode outlines every text block on the page for in-place editing while the AI panel answers a question about the report with page citations"></td>
-<td width="50%"><img src="docs/assets/readme/pdf-convert.webp" alt="GenOffice Docs showing a Word document converted locally from the Helios quarterly review PDF, opened in a second tab beside the original PDF"></td>
+<td width="50%"><img src="docs/assets/readme/pdf-edit.webp" alt="GenOffice PDF: chế độ Sửa text khoanh vùng mọi khối text trên trang để sửa tại chỗ, trong khi panel AI trả lời câu hỏi về báo cáo kèm trích dẫn số trang"></td>
+<td width="50%"><img src="docs/assets/readme/pdf-convert.webp" alt="GenOffice Docs hiển thị tài liệu Word được chuyển đổi cục bộ từ PDF báo cáo quý Helios, mở trong tab thứ hai cạnh PDF gốc"></td>
 </tr>
 <tr>
-<td><b>Edit inside the page</b> — Edit text mode outlines every text block for in-place retyping; the content stream is rewritten through PDFium with the original fonts, not a cover-up annotation. Ask the AI about a long report and get answers with page citations.</td>
-<td><b>Convert on-device</b> — <b>PDF Converter → PDF to Word</b> produces an editable <code>.docx</code> that opens in Docs next to the source, headings, stat rows and paragraphs intact. Excel and PowerPoint targets work the same way; scanned pages go through the system OCR.</td>
+<td><b>Sửa ngay trong trang</b> — chế độ Sửa text khoanh vùng mọi khối text để gõ lại tại chỗ; luồng nội dung được ghi lại qua PDFium với font gốc, không phải chú thích che phủ. Hỏi AI về báo cáo dài và nhận câu trả lời kèm trích dẫn số trang.</td>
+<td><b>Chuyển đổi trên thiết bị</b> — <b>PDF Converter → PDF sang Word</b> cho ra file <code>.docx</code> chỉnh sửa được, mở trong Docs ngay cạnh file gốc, giữ nguyên heading, hàng số liệu và đoạn văn. Chuyển sang Excel và PowerPoint cũng tương tự; trang scan đi qua OCR của hệ thống.</td>
 </tr>
 </table>
-
-### 5 · HTML — an AI page and UI builder, design brief first
-
-Say what the page is for and who it is for. The AI proposes a **design brief**
-first — hook, palette, typography and style directions — then builds a single
-self-contained `.html` file against those tokens.
-
-<img src="docs/assets/readme/html-restyle-motion.webp" alt="Time-lapse of GenOffice HTML restyling the Lumen landing page: one Restyle request in the panel turns the dark Midnight Studio page into the warm Solar Daybreak version while every section and all copy stay in place" width="100%">
-
+5 · HTML — trình dựng trang web và UI bằng AI, brief thiết kế trước
+Nói trang web dùng để làm gì và cho ai. AI đề xuất brief thiết kế
+trước — điểm nhấn, bảng màu, typography và định hướng phong cách — rồi dựng một
+file .html độc lập duy nhất theo đúng các token đó.
+<img src="docs/assets/readme/html-restyle-motion.webp" alt="Ảnh tua nhanh GenOffice HTML đổi phong cách trang landing Lumen: một yêu cầu Restyle trong panel biến trang Midnight Studio tối màu thành phiên bản Solar Daybreak ấm áp, trong khi mọi mục và nội dung đều giữ nguyên" width="100%">
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/readme/html-ai.webp" alt="GenOffice HTML: a generated landing page for a solar desk lamp in the dark Midnight Studio direction, shown in the live preview with the AI panel summarizing the page it just built"></td>
-<td width="50%"><img src="docs/assets/readme/html-restyle.webp" alt="The same Lumen landing page restyled by the AI into the warm Solar Daybreak direction: paper background, serif headlines and an orange accent, with every section and all copy kept"></td>
+<td width="50%"><img src="docs/assets/readme/html-ai.webp" alt="GenOffice HTML: trang landing cho đèn bàn năng lượng mặt trời theo phong cách Midnight Studio tối màu, hiển thị trong xem trước trực tiếp với panel AI tóm tắt trang vừa dựng"></td>
+<td width="50%"><img src="docs/assets/readme/html-restyle.webp" alt="Vẫn trang landing Lumen đó được AI đổi sang phong cách Solar Daybreak ấm áp: nền giấy, tiêu đề serif và điểm nhấn cam, mọi mục và nội dung được giữ nguyên"></td>
 </tr>
 <tr>
-<td><b>Generated from one prompt</b> — a bold hero, feature cards, pricing and a waitlist form for Lumen, built in the Midnight Studio direction. Click any element to restyle it, double-click to edit text, or switch to the CodeMirror source view.</td>
-<td><b>Same design, new direction</b> — one <b>Restyle</b> request swaps the brief's tokens and the page follows: warm paper, editorial serif, sun-orange accent, nothing rewritten. Present fullscreen, or export as PDF or a native editable Word document.</td>
+<td><b>Dựng từ một prompt</b> — hero ấn tượng, thẻ tính năng, bảng giá và form chờ cho Lumen, dựng theo phong cách Midnight Studio. Nhấp vào bất kỳ phần tử nào để đổi kiểu, nhấp đúp để sửa text, hoặc chuyển sang chế độ xem mã nguồn CodeMirror.</td>
+<td><b>Cùng thiết kế, diện mạo mới</b> — một yêu cầu <b>Restyle</b> đổi các token của brief và trang web theo ngay: giấy ấm, serif kiểu biên tập, điểm nhấn cam nắng, không viết lại gì cả. Trình chiếu toàn màn hình, hoặc xuất ra PDF hay tài liệu Word chỉnh sửa được.</td>
 </tr>
 </table>
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/readme/html-dashboard.webp" alt="GenOffice HTML: a generated personal dashboard UI for a freelance designer in a warm linen style, with a left rail, serif greeting and four metric cards"></td>
-<td width="50%"><img src="docs/assets/readme/html-report.webp" alt="GenOffice HTML: a generated EV-market data report in a broadsheet style, with a serif masthead, a 17.3 million headline figure and a stat row"></td>
+<td width="50%"><img src="docs/assets/readme/html-dashboard.webp" alt="GenOffice HTML: UI dashboard cá nhân cho designer freelance theo phong cách vải lanh ấm áp, với thanh điều hướng trái, lời chào serif và bốn thẻ chỉ số"></td>
+<td width="50%"><img src="docs/assets/readme/html-report.webp" alt="GenOffice HTML: báo cáo dữ liệu thị trường xe điện theo phong cách báo khổ lớn, với tên báo serif, con số tiêu đề 17,3 triệu và hàng số liệu"></td>
 </tr>
 <tr>
-<td><b>UI mockups</b> — the "personal dashboard" starter turns a persona into a working layout: left rail, greeting, billable-hours sparkline, invoice and utilization cards, all real HTML you can hand to a developer.</td>
-<td><b>Data stories</b> — the "data report" starter builds an editorial broadsheet: serif masthead, one headline number, a rule-separated stat row, inline SVG charts and a methodology note.</td>
+<td><b>Mockup UI</b> — mẫu "dashboard cá nhân" biến persona thành layout hoạt động được: thanh điều hướng trái, lời chào, sparkline giờ billable, thẻ hoá đơn và thẻ hiệu suất — toàn bộ là HTML thật, đưa cho developer dùng ngay được.</td>
+<td><b>Kể chuyện bằng dữ liệu</b> — mẫu "báo cáo dữ liệu" dựng tờ báo khổ lớn kiểu biên tập: tên báo serif, một con số tiêu đề, hàng số liệu ngăn bằng đường kẻ, biểu đồ SVG nhúng và ghi chú phương pháp.</td>
 </tr>
 </table>
-
-### 6 · Markdown — a block editor over plain `.md`, with Ask AI
-
+6 · Markdown — trình soạn block trên .md thuần, có Ask AI
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/readme/markdown-ai.webp" alt="GenOffice Markdown: a selected paragraph shows an Ask AI popover with a typed instruction and suggestion chips such as Polish, Make more concise, Expand and Fix grammar, plus Send now and Add to queue buttons"></td>
-<td width="50%"><img src="docs/assets/readme/markdown-render.webp" alt="GenOffice Markdown rendering a launch-notes document with a table, a Mermaid flowchart and a task list, with the AI panel's starter prompts on the left"></td>
+<td width="50%"><img src="docs/assets/readme/markdown-ai.webp" alt="GenOffice Markdown: một đoạn được chọn hiển thị popover Ask AI với lệnh đã gõ và các gợi ý như Polish, Make more concise, Expand và Fix grammar, cùng nút Send now và Add to queue"></td>
+<td width="50%"><img src="docs/assets/readme/markdown-render.webp" alt="GenOffice Markdown hiển thị tài liệu ghi chú ra mắt với bảng, sơ đồ Mermaid và danh sách việc cần làm, với các prompt gợi ý của panel AI bên trái"></td>
 </tr>
 <tr>
-<td><b>Ask AI about a selection</b> — select any passage and an <b>Ask AI</b> chip appears: type an instruction or pick a suggestion, send it now, or queue several anchored edits and run them in one pass. The same entry exists in every app.</td>
-<td><b>Rendered, saved as plain Markdown</b> — headings, lists, tables, images, code blocks and Mermaid diagrams in a Tiptap block editor, written back as plain <code>.md</code>, with a fully local <b>Markdown → Word</b> export.</td>
+<td><b>Hỏi AI về đoạn đã chọn</b> — chọn bất kỳ đoạn nào và chip <b>Ask AI</b> hiện ra: gõ lệnh hoặc chọn gợi ý, gửi ngay, hoặc xếp hàng nhiều chỉnh sửa neo vị trí rồi chạy một lượt. Mục này có trong mọi app.</td>
+<td><b>Hiển thị đẹp, lưu Markdown thuần</b> — heading, danh sách, bảng, ảnh, khối mã và sơ đồ Mermaid trong trình soạn block Tiptap, ghi lại thành <code>.md</code> thuần, kèm xuất <b>Markdown → Word</b> hoàn toàn cục bộ.</td>
 </tr>
 </table>
-
-### 7 · Search — find the file that answers the question, with TypeSafe Jev
-
-Every file in your work folder is indexed on-device: names, folders and the
-extracted text of Word, Excel, PowerPoint, PDF, Markdown and HTML files, in a
-SQLite full-text index with CJK-aware tokenizing. Switch on **Jev search
-reranking** and the top 20 local hits are judged by
-[TypeSafe Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev),
-the System One model that returns one calibrated relevance score per document
-in a single call instead of generating text. The list is reordered by
-that score; if the call fails or times out, the local order stays.
-
-<img src="docs/assets/readme/search-jev-motion.webp" alt="Screen recording of the GenOffice home screen: typing laptop refresh policy lists a browser-cache policy, a brand-refresh plan and a dashboard-refresh schedule first while the equipment standards document is last; the Settings page shows Jev search reranking switched on under AI Media & Search with the TypeSafe endpoint; the same search then shows the equipment standards document first with a Jev badge next to the result count" width="100%">
-
+</tr>
+</table>
+7 · Tìm kiếm — tìm file trả lời đúng câu hỏi, với TypeSafe Jev
+Mọi file trong thư mục làm việc của bạn đều được index ngay trên thiết bị: tên
+file, thư mục và nội dung trích xuất từ các file Word, Excel, PowerPoint, PDF,
+Markdown và HTML, nằm trong một index full-text SQLite có khả năng tách từ
+CJK. Bật Jev search reranking và 20 kết quả local đứng đầu sẽ được
+TypeSafe Jev,
+model System One trả về một điểm relevance đã hiệu chuẩn cho mỗi tài liệu
+trong một lần gọi duy nhất thay vì sinh văn bản, chấm điểm. Danh sách được sắp
+xếp lại theo điểm đó; nếu lệnh gọi thất bại hoặc timeout, thứ tự local được
+giữ nguyên.
+<img src="docs/assets/readme/search-jev-motion.webp" alt="Bản ghi màn hình của màn hình chính GenOffice: gõ laptop refresh policy liệt kê chính sách browser-cache, kế hoạch brand-refresh và lịch dashboard-refresh lên trước trong khi tài liệu tiêu chuẩn thiết bị đứng cuối; trang Settings hiển thị Jev search reranking đã bật trong mục AI Media & Search với endpoint TypeSafe; cùng một truy vấn sau đó đưa tài liệu tiêu chuẩn thiết bị lên đầu với huy hiệu Jev bên cạnh số lượng kết quả" width="100%">
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/readme/search-jev-before-after.webp" alt="Two result lists for the query laptop refresh policy side by side: without Jev the dashboard refresh schedule, brand refresh plan and browser cache refresh policy lead and the company equipment standards document is fifth; with Jev the equipment standards document, which states the three-year laptop replacement cycle, is first"></td>
-<td width="50%"><img src="docs/assets/readme/search-jev-settings.webp" alt="GenOffice Settings, AI Media & Search page: the Local file search block with the Jev search reranking switch, the endpoint choice between OpenRouter and TypeSafe, and the API key field"></td>
+<td width="50%"><img src="docs/assets/readme/search-jev-before-after.webp" alt="Hai danh sách kết quả cho truy vấn laptop refresh policy đặt cạnh nhau: không có Jev, lịch dashboard-refresh, kế hoạch brand-refresh và chính sách browser-cache refresh đứng đầu còn tài liệu tiêu chuẩn thiết bị của công ty đứng thứ năm; có Jev, tài liệu tiêu chuẩn thiết bị — tài liệu nêu chu kỳ thay thế laptop ba năm — đứng đầu"></td>
+<td width="50%"><img src="docs/assets/readme/search-jev-settings.webp" alt="GenOffice Settings, trang AI Media & Search: khối Local file search với công tắc Jev search reranking, lựa chọn endpoint giữa OpenRouter và TypeSafe, và ô nhập API key"></td>
 </tr>
 <tr>
-<td><b>Same words, different answers</b> — "laptop refresh policy" matches a browser-cache refresh policy, a brand-refresh plan and a dashboard-refresh schedule word for word, so full-text ranking puts them first. Jev reads the excerpts and moves the equipment standards document, the one that states the three-year replacement cycle, to the top. The <b>Jev</b> badge next to the result count shows when the order came from the model.</td>
-<td><b>Off by default, one switch to turn on</b> — Settings → AI Media & Search → Local file search. Pick OpenRouter or TypeSafe direct, paste a key, hit Test connection. Only when the switch is on do excerpts of the top hits leave the device; the index itself never does.</td>
+<td><b>Cùng một cụm từ, câu trả lời khác nhau</b> — "laptop refresh policy" khớp từng chữ với chính sách browser-cache refresh, kế hoạch brand-refresh và lịch dashboard-refresh, nên xếp hạng full-text đặt chúng lên trước. Jev đọc các đoạn trích và đưa tài liệu tiêu chuẩn thiết bị, tài liệu nêu chu kỳ thay thế ba năm, lên đầu. Huy hiệu <b>Jev</b> bên cạnh số lượng kết quả cho biết khi nào thứ tự đến từ model.</td>
+<td><b>Tắt mặc định, chỉ cần một công tắc để bật</b> — Settings → AI Media & Search → Local file search. Chọn OpenRouter hoặc TypeSafe trực tiếp, dán key, bấm Test connection. Chỉ khi công tắc được bật, các đoạn trích của kết quả đứng đầu mới rời khỏi thiết bị; bản thân index thì không bao giờ.</td>
 </tr>
 </table>
-
-### 8 · CLI — your coding agent drives GenOffice, on your machine
-
-GenOffice ships a `genoffice` command line and an agent skill. Install the
-skill and Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode or
-Windsurf can create, convert, read and edit real Office files through the
-same engines as the apps, without opening a window.
-
-<img src="docs/assets/readme/cli-deck-in-app.webp" alt="GenOffice Slides showing an eight-slide Solar System deck that a coding agent built through the genoffice command line: the cover slide on the canvas, eight thumbnails on the left and the AI panel open" width="100%">
-
+8 · CLI — coding agent của bạn điều khiển GenOffice, ngay trên máy của bạn
+GenOffice đi kèm dòng lệnh genoffice và một agent skill. Cài skill xong,
+Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode hay Windsurf
+đều có thể tạo, chuyển đổi, đọc và sửa file Office thật bằng chính các engine
+như trong app, mà không cần mở cửa sổ nào.
+<img src="docs/assets/readme/cli-deck-in-app.webp" alt="GenOffice Slides hiển thị deck Hệ Mặt Trời tám slide do coding agent dựng qua dòng lệnh genoffice: slide bìa trên canvas, tám thumbnail bên trái và panel AI đang mở" width="100%">
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/readme/cli-slides-grid.webp" alt="The eight rendered slides of the Solar System deck side by side: cover, exploration timeline, four key numbers, planet-diameter bar chart, rocky worlds versus giants, the Sun's 99.8% hero number, the four giants grid and takeaways"></td>
-<td width="50%"><img src="docs/assets/readme/cli-integrations.webp" alt="GenOffice Settings, Integrations page: the genoffice skill installed into Claude Code, with Install buttons next to Codex and Cursor"></td>
+<td width="50%"><img src="docs/assets/readme/cli-slides-grid.webp" alt="Tám slide đã render của deck Hệ Mặt Trời xếp cạnh nhau: bìa, dòng thời gian khám phá, bốn con số nổi bật, biểu đồ cột đường kính các hành tinh, các hành tinh đá đối đầu với các hành tinh khổng lồ, con số hero 99,8% của Mặt Trời, lưới bốn hành tinh khổng lồ và phần kết luận"></td>
+<td width="50%"><img src="docs/assets/readme/cli-integrations.webp" alt="GenOffice Settings, trang Integrations: skill genoffice đã cài vào Claude Code, với các nút Install bên cạnh Codex và Cursor"></td>
 </tr>
 <tr>
-<td><b>One prompt to your agent</b> — "Build an eight-slide deck about the Solar System." The agent reads the skill, writes a style sheet, an outline and one page spec per slide, generates the two photos with <code>genoffice image</code>, and lets <code>genoffice slides check</code> reject anything that overflows or overlaps before <code>genoffice create</code> assembles the <code>.pptx</code> and <code>slides render</code> hands back a PNG per slide to look at.</td>
-<td><b>Install once, from Settings → Integrations</b> — GenOffice lists the coding agents it finds on this computer and writes the skill into each one you pick. Or download the skill as a zip, or run <code>npx skills add quyen2867/genoffice</code>. Commands and the full workflow are in <a href="#command-line-and-agent-skill">Command line and agent skill</a>.</td>
+<td><b>Một prompt gửi cho agent</b> — "Build an eight-slide deck about the Solar System." Agent đọc skill, viết style sheet, dàn ý và một page spec cho mỗi slide, sinh hai tấm ảnh bằng <code>genoffice image</code>, và để <code>genoffice slides check</code> loại bỏ mọi thứ bị tràn hoặc chồng lấn trước khi <code>genoffice create</code> lắp ráp file <code>.pptx</code> còn <code>slides render</code> trả về một ảnh PNG cho mỗi slide để bạn xem.</td>
+<td><b>Cài một lần, từ Settings → Integrations</b> — GenOffice liệt kê các coding agent tìm thấy trên máy này và ghi skill vào từng agent bạn chọn. Hoặc tải skill dưới dạng zip, hoặc chạy <code>npx skills add quyen2867/genoffice</code>. Các lệnh và toàn bộ workflow xem tại <a href="#command-line-and-agent-skill">Dòng lệnh và agent skill</a>.</td>
 </tr>
 </table>
-
-### 9 · MCP — the same tools over the Model Context Protocol
-
-Every `genoffice` command is also an MCP tool. Claude Code, Claude Desktop,
-Cursor and any other MCP client can start `genoffice mcp` themselves, with no
-skill to install and no window open, and get 29 tools plus the op references
-as resources. A second, HTTP server inside the app lets an agent build a Word
-document in a visible editor tab while you watch.
-
-<img src="docs/assets/readme/mcp-deck-motion.webp" alt="Time-lapse of Claude Code building an eight-slide renewable-energy investor briefing through the genoffice MCP server: it searches for figures and photos, checks each candidate picture with media, deck_start writes the style sheet and outline, deck_page adds one checked page at a time, deck_build assembles the .pptx and slides_render returns a picture of every slide; the finished deck then opens in GenOffice Slides" width="100%">
-
+9 · MCP — cùng bộ công cụ đó, qua Model Context Protocol
+Mọi lệnh genoffice đều đồng thời là một MCP tool. Claude Code, Claude
+Desktop, Cursor và bất kỳ MCP client nào khác đều có thể tự khởi động
+genoffice mcp, không cần cài skill, không cần mở cửa sổ, và nhận được 29
+tool cùng các tài liệu tham khảo op dưới dạng resource. Một server HTTP thứ
+hai chạy trong app cho phép agent dựng tài liệu Word ngay trong tab editor
+hiển thị trước mắt bạn.
+<img src="docs/assets/readme/mcp-deck-motion.webp" alt="Timelapse Claude Code dựng bản briefing nhà đầu tư về năng lượng tái tạo gồm tám slide qua genoffice MCP server: nó tìm số liệu và ảnh, kiểm tra từng ảnh ứng viên bằng media, deck_start viết style sheet và dàn ý, deck_page thêm từng slide đã kiểm tra một, deck_build lắp ráp file .pptx và slides_render trả về hình ảnh của từng slide; deck hoàn chỉnh sau đó mở ra trong GenOffice Slides" width="100%">
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/readme/mcp-deck-in-app.webp" alt="GenOffice Slides showing the eight-slide Renewable Energy 2026 deck that Claude Code built through the genoffice MCP server: the cover slide with a wind-farm photograph on the canvas and eight thumbnails on the left"></td>
-<td width="50%"><img src="docs/assets/readme/mcp-integrations.webp" alt="GenOffice Settings, Integrations page, MCP part: the one-line claude mcp add command for Claude Code, the JSON block for Cursor, Claude Desktop and other MCP clients, and the local HTTP server option below"></td>
+<td width="50%"><img src="docs/assets/readme/mcp-deck-in-app.webp" alt="GenOffice Slides hiển thị deck Renewable Energy 2026 tám slide do Claude Code dựng qua genoffice MCP server: slide bìa với ảnh trang trại gió trên canvas và tám thumbnail bên trái"></td>
+<td width="50%"><img src="docs/assets/readme/mcp-integrations.webp" alt="GenOffice Settings, trang Integrations, phần MCP: lệnh claude mcp add một dòng cho Claude Code, khối JSON cho Cursor, Claude Desktop và các MCP client khác, cùng tùy chọn local HTTP server bên dưới"></td>
 </tr>
 <tr>
-<td><b>One prompt, 38 tool calls, no shell</b> — "Build an eight-slide investor briefing about renewable energy in 2026, with a real photo on the cover and wherever a photo helps." The agent pulls the figures and the photos with <code>search</code>, asks <code>media</code> whether each candidate picture is a real photograph, calls <code>deck_start</code> with a style sheet and an outline, then <code>deck_page</code> once per slide; every page is checked against the outline and the palette before it is kept, <code>deck_build</code> assembles the <code>.pptx</code>, <code>slides_audit</code> looks for overflow, <code>slides_render</code> hands back a PNG per slide as image content the model can look at, and <code>deck_replace</code> fixes the three pages it did not like.</td>
-<td><b>Connect once, from Settings → Integrations</b> — copy the <code>claude mcp add</code> line for Claude Code, or the JSON block into Cursor, Claude Desktop or any other MCP client. Option B switches on the local HTTP server for the visible Word editor. Both are described in <a href="#mcp-server">MCP server</a>.</td>
+<td><b>Một prompt, 38 lần gọi tool, không cần shell</b> — "Build an eight-slide investor briefing about renewable energy in 2026, with a real photo on the cover and wherever a photo helps." Agent lấy số liệu và ảnh bằng <code>search</code>, hỏi <code>media</code> xem từng ảnh ứng viên có phải ảnh chụp thật không, gọi <code>deck_start</code> với style sheet và dàn ý, rồi <code>deck_page</code> một lần cho mỗi slide; mỗi trang đều được đối chiếu với dàn ý và bảng màu trước khi giữ lại, <code>deck_build</code> lắp ráp file <code>.pptx</code>, <code>slides_audit</code> kiểm tra tràn nội dung, <code>slides_render</code> trả về một ảnh PNG cho mỗi slide dưới dạng image content để model xem được, và <code>deck_replace</code> sửa lại ba trang nó chưa ưng.</td>
+<td><b>Kết nối một lần, từ Settings → Integrations</b> — copy dòng <code>claude mcp add</code> cho Claude Code, hoặc khối JSON cho Cursor, Claude Desktop hay bất kỳ MCP client nào. Tùy chọn B bật local HTTP server cho Word editor hiển thị. Cả hai đều được mô tả trong <a href="#mcp-server">MCP server</a>.</td>
 </tr>
 </table>
-
-## Why GenOffice
-
-- **Open source**, Apache-2.0, built in the open on GitHub.
-- **Yours to run.** Native apps for macOS, Windows and Linux; files stay on your
-  disk and every edit, save and conversion happens on your machine.
-- **Real Office files.** Native `.docx`, `.xlsx` and `.pptx`, byte-preserving:
-  the parts of a file you did not touch are copied exactly as they were.
-- **An AI that edits the document itself.** Tracked changes in Docs, live
-  formulas and charts in Sheets, slides drawn onto the canvas, every AI turn a
-  snapshot you can roll back.
-- **Your model, your key.** Sign in with Genspark, or bring a key for Claude,
-  OpenAI, Gemini, DeepSeek and more, local servers and any OpenAI-compatible
-  endpoint included.
-- **PDF done properly.** Edit text inside the page, and convert PDF to Word,
-  Excel or PowerPoint on-device, with system OCR for scans.
-- **Markdown and HTML too**, with the same AI panel and local export to Word.
-- **Search that finds the answer, not the keyword.** Full-text search over
-  every document in your folders, indexed on-device, with optional reranking
-  by TypeSafe Jev, the System One judgment model.
-- **Scriptable.** A `genoffice` command line, an agent skill and an MCP server
-  put every engine at the service of Claude Code, Claude Desktop, Codex, Cursor
-  and other agents, still on-device.
-- **Free**, for individuals and teams alike.
-
-## AI backends
-
-**Sign in with Genspark** and there is nothing to configure: model calls route
-through the Genspark proxy (Claude, GPT and Gemini families) and the agents get
-web and image search, image generation, and image/audio/video analysis.
-
-**Or bring your own key.** Settings → AI lists Claude, OpenAI, Gemini,
+Vì sao chọn GenOffice
+Mã nguồn mở, Apache-2.0, phát triển công khai trên GitHub.
+Chạy trên máy của bạn. App native cho macOS, Windows và Linux; file nằm
+  trên ổ đĩa của bạn và mọi thao tác sửa, lưu, chuyển đổi đều diễn ra trên máy
+  bạn.
+File Office thật. .docx, .xlsx và .pptx chuẩn native, bảo toàn
+  từng byte: những phần file bạn không đụng tới được copy nguyên vẹn như cũ.
+AI sửa trực tiếp tài liệu. Tracked changes trong Docs, công thức và
+  biểu đồ live trong Sheets, slide vẽ thẳng lên canvas, mỗi lượt AI là một
+  snapshot có thể quay lại.
+Model của bạn, key của bạn. Đăng nhập bằng Genspark, hoặc tự mang key
+  cho Claude, OpenAI, Gemini, DeepSeek và nhiều hơn nữa — kể cả server local
+  và mọi endpoint tương thích OpenAI.
+PDF làm cho đàng hoàng. Sửa chữ ngay trong trang, chuyển PDF sang Word,
+  Excel hoặc PowerPoint ngay trên máy, kèm OCR hệ thống cho file scan.
+Cả Markdown và HTML nữa, với cùng panel AI và xuất Word ngay trên máy.
+Tìm kiếm ra câu trả lời, không chỉ ra từ khóa. Tìm full-text trên mọi
+  tài liệu trong thư mục của bạn, index ngay trên thiết bị, tùy chọn rerank
+  bằng TypeSafe Jev — model đánh giá System One.
+Viết script được. Dòng lệnh genoffice, agent skill và MCP server đặt
+  mọi engine phục vụ Claude Code, Claude Desktop, Codex, Cursor và các agent
+  khác — vẫn ngay trên máy bạn.
+Miễn phí, cho cá nhân lẫn đội nhóm.
+Các backend AI
+Đăng nhập bằng Genspark là không cần cấu hình gì thêm: các lệnh gọi model
+đi qua proxy Genspark (các họ Claude, GPT và Gemini), còn các agent có sẵn tìm
+kiếm web và ảnh, sinh ảnh, phân tích ảnh/âm thanh/video.
+Hoặc tự mang key của bạn. Settings → AI liệt kê Claude, OpenAI, Gemini,
 DeepSeek, Kimi, GLM, Qwen, Doubao, MiniMax, Grok, Mistral, OpenRouter, Requesty, Opper
-and OpenCode Zen/Go, plus a custom slot for any OpenAI-compatible endpoint (base
-URL + key), including local model servers. Search and media have their own
-per-capability providers under **AI Media & Search**: Serper, Tavily or Parallel for web
-search, and OpenAI, Gemini, Doubao/Seedream, GLM, Grok, Qwen, MiniMax or any
-OpenAI-compatible images endpoint for image generation and image/video
-analysis, plus DeepSeek V4.1 Flash for image analysis.
-
-**TypeSafe Jev** reranks the home screen's file search. Under **AI Media & Search →
-Local file search**, switch on Jev search reranking and pick an endpoint:
-[OpenRouter](https://openrouter.ai/typesafe) (model `typesafe/jev-1.13`) or
-TypeSafe's own API. The key is stored only on this device. It is off by
-default; when on, the excerpts of the top 20 local hits are sent for judgment
-and nothing else leaves the machine.
-
-**Parallel** works without an account: its free Search MCP (rate-limited) is the
-default web search whenever no Genspark login or search key is configured, and
-it runs ahead of the DuckDuckGo scrape. Select Parallel under Web search and
-enter a [Parallel](https://platform.parallel.ai/) key to use the Search API
-instead.
-
-The whole suite ships light, dark and system themes. Themes only change what
-is on screen: exports, prints and saved files always keep the document's own
-colors.
-
-## Command line and agent skill
-
-Everything the apps can do to a file, the `genoffice` command line can do from
-a terminal: inspect, convert, create, read and edit Word, Excel, PowerPoint,
-PDF, Markdown and HTML on the same engines, headless. It installs with
-GenOffice, needs no runtime of its own, and never sends a document anywhere.
-Paired with the bundled **agent skill**, it turns a coding agent into a
-document worker that produces real Office files instead of Markdown
-approximations.
-
-**Works with:** Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot,
-OpenCode and Windsurf out of the box, any other agent that reads skills, and,
-through the [MCP server](#mcp-server), Claude Desktop and every MCP client.
-
-### Install the skill
-
-| How                                    | What happens                                                                                                                                                             |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Settings → Integrations** in the app | Lists the agents found on this computer; one click writes the skill into each one you choose. An **Update** button appears when a GenOffice release ships a newer skill. |
-| **Download as zip** on the same page   | The layout claude.ai, the Claude desktop apps and other assistants accept as an uploaded skill.                                                                          |
-| `npx skills add quyen2867/genoffice` | Installs from this repository into any skills-compatible agent.                                                                                                          |
-
-Then start a new chat and ask for a document. The skill teaches the agent when
-to reach for `genoffice`, how to read a file before editing it, and how to
-check its own work.
-
-### Quickstart from the terminal
-
-```bash
+và OpenCode Zen/Go, kèm một slot tùy chỉnh cho mọi endpoint tương thích OpenAI
+(base URL + key), bao gồm cả server model local. Tìm kiếm và media có provider
+riêng cho từng năng lực trong mục AI Media & Search: Serper, Tavily hoặc
+Parallel cho tìm kiếm web; OpenAI, Gemini, Doubao/Seedream, GLM, Grok, Qwen,
+MiniMax hoặc mọi endpoint ảnh tương thích OpenAI cho sinh ảnh và phân tích
+ảnh/video; cộng thêm DeepSeek V4.1 Flash cho phân tích ảnh.
+TypeSafe Jev rerank tính năng tìm file trên màn hình chính. Trong **AI Media
+& Search → Local file search**, bật Jev search reranking và chọn endpoint:
+OpenRouter (model typesafe/jev-1.13) hoặc
+API của chính TypeSafe. Key chỉ được lưu trên thiết bị này. Mặc định tắt; khi
+bật, chỉ các đoạn trích của 20 kết quả local đứng đầu được gửi đi chấm điểm,
+không có gì khác rời khỏi máy.
+Parallel chạy được mà không cần tài khoản: Search MCP miễn phí (giới hạn
+tốc độ) của nó là công cụ tìm kiếm web mặc định mỗi khi chưa đăng nhập Genspark
+hay cấu hình search key, và nó chạy trước cả DuckDuckGo scrape. Chọn Parallel
+trong mục Web search và nhập key Parallel để
+dùng Search API thay thế.
+Toàn bộ bộ app đi kèm theme sáng, tối và theo hệ thống. Theme chỉ thay đổi
+những gì hiển thị trên màn hình: file xuất, bản in và file đã lưu luôn giữ
+nguyên màu gốc của tài liệu.
+Dòng lệnh và agent skill
+Mọi việc app làm được với một file, dòng lệnh genoffice đều làm được từ
+terminal: kiểm tra, chuyển đổi, tạo, đọc và sửa Word, Excel, PowerPoint, PDF,
+Markdown và HTML trên cùng các engine, chạy headless. Nó được cài kèm
+GenOffice, không cần runtime riêng, và không bao giờ gửi tài liệu đi đâu. Kết
+hợp với agent skill đi kèm, nó biến coding agent thành một trợ lý tài liệu
+tạo ra file Office thật thay vì bản Markdown gần đúng.
+Tương thích với: Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot,
+OpenCode và Windsurf ngay khi mở hộp, mọi agent khác đọc được skill, và — thông
+qua MCP server — Claude Desktop cùng mọi MCP client.
+Cài đặt skill
+Cách làm
+Điều gì xảy ra
+Settings → Integrations trong app
+Liệt kê các agent tìm thấy trên máy này; một cú click ghi skill vào từng agent bạn chọn. Nút Update xuất hiện khi bản phát hành GenOffice mới mang theo skill mới hơn.
+Download as zip trên cùng trang đó
+Định dạng mà claude.ai, các app Claude desktop và các trợ lý khác chấp nhận khi upload skill.
+npx skills add quyen2867/genoffice
+Cài từ repo này vào mọi agent tương thích skill.
+Sau đó mở một đoạn chat mới và yêu cầu một tài liệu. Skill dạy agent khi nào
+nên dùng genoffice, cách đọc file trước khi sửa, và cách tự kiểm tra thành
+quả của mình.
+Bắt đầu nhanh từ terminal
 genoffice --version
 genoffice info report.docx --json                  # headings and blocks; or sheets, slides, pages
 genoffice convert report.md --to pdf               # md/html/docx/xlsx/pptx → pdf, pdf → docx/xlsx/pptx, …
@@ -329,20 +281,14 @@ genoffice create --type xlsx --from table.json --out sales.xlsx   # "=SUM(B2:B9)
 genoffice docs read report.docx --range 0-9 --json # then `docs apply --ops edits.json` edits in place
 genoffice render report.docx --out shots/          # one PNG per page, to look at what you made
 genoffice open sales.xlsx                          # hand the result to the editor
-```
-
-Every command prints a one-line summary, or a single JSON object with
-`--json`. Edits are atomic: a rejected op leaves the file untouched and comes
-back with a guided error. `genoffice help` lists the current command surface;
-the full reference is [packages/cli/README.md](packages/cli/README.md).
-
-### What the agent actually runs
-
-The Solar System deck in the [demo](#demo) took one prompt in Claude Code.
-Behind it, the agent followed the skill's staged workflow and the CLI checked
-every stage before the next one started:
-
-```bash
+Mỗi lệnh in ra một dòng tóm tắt, hoặc một object JSON duy nhất với --json.
+Các thao tác sửa là atomic: một op bị từ chối sẽ để file nguyên vẹn và trả về
+lỗi có hướng dẫn. genoffice help liệt kê toàn bộ lệnh hiện có; tài liệu đầy
+đủ xem tại packages/cli/README.md.
+Agent thực sự chạy những gì
+Deck Hệ Mặt Trời trong demo chỉ cần một prompt trong Claude Code.
+Đằng sau nó, agent làm theo quy trình từng bước của skill và CLI kiểm tra
+từng bước trước khi bước tiếp theo bắt đầu:
 genoffice capabilities --json                        # which cloud tools GenOffice has configured
 genoffice guide slides design                        # the deck workflow and layout library
 genoffice image "the eight planets in a row …" --aspect 16:9 --out deck/assets/cover.jpg
@@ -354,36 +300,27 @@ genoffice slides render deck/solar-system.pptx --out deck/shots --json
 genoffice slides audit deck/solar-system.pptx --json    # 8 slides, no layout issues
 genoffice slides replace deck/solar-system.pptx --slide 4 --spec deck/pages/05.json --json
 genoffice open deck/solar-system.pptx
-```
-
-No model call happens inside `genoffice`: the agent does the thinking, the CLI
-does the building and the checking, and the result opens in GenOffice or
-PowerPoint as an ordinary `.pptx`.
-
-### MCP server
-
-The same commands are available as [Model Context Protocol](https://modelcontextprotocol.io)
-tools, for assistants that cannot run a terminal or that you would rather not
-give one. There are two ways in, both shown with copy-ready snippets in
-**Settings → Integrations → MCP**:
-
-| Way                                   | What it is                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **A · `genoffice mcp`** (recommended) | A stdio server the assistant starts itself; GenOffice does not need to be open. One tool per command (`info`, `convert`, `create_docx`, `create_xlsx`, `create_pptx`, `create_pdf`, `docs_read` / `docs_apply` / `docs_check`, `sheet_*`, `slides_*`, `render`, `guide`, `search`, `image`, `media`, `open`) plus the staged deck flow `deck_start` → `deck_page` → `deck_build` → `deck_replace`. Ops, specs and Markdown are passed inline, so a client without a file system still works. |
-| **B · Local HTTP server**             | Runs inside the GenOffice app on `http://127.0.0.1:3093/mcp` (Streamable HTTP, with legacy SSE). Its tools drive a visible Word editor tab: `create_session`, `insert_content`, `replace_blocks`, `apply_ops`, `read_document`, `save_session`, and you watch the document take shape. Off by default; switch it on in the same settings pane.                                                                                                                                               |
-| **C · `genoffice mcp --http`**        | The stdio tool set as a Streamable HTTP server for clients on other machines: a container, a sandbox, a shared box on your network. Files travel with the calls: `PUT /files/<name>` uploads one and returns a URL, every `file` parameter takes an http(s) URL, and a tool that writes a file hands it back as a download URL plus, when small, the bytes as an MCP resource. `--host 0.0.0.0` opens it to the network, `--token` protects it.                                              |
-
-```bash
+Không có lời gọi model nào diễn ra bên trong genoffice: agent lo phần tư duy,
+CLI lo phần dựng và kiểm tra, và kết quả mở ra trong GenOffice hoặc PowerPoint
+như một file .pptx bình thường.
+Máy chủ MCP
+Các lệnh tương tự cũng có sẵn dưới dạng tool
+Model Context Protocol, dành cho các
+assistant không chạy được terminal hoặc bạn không muốn cấp terminal cho chúng.
+Có hai cách dùng, cả hai đều có đoạn mã copy-paste sẵn trong
+Settings → Integrations → MCP:
+Cách
+Mô tả
+A · genoffice mcp (khuyên dùng)
+Một máy chủ stdio do chính assistant khởi động; không cần mở GenOffice. Một tool cho mỗi lệnh (info, convert, create_docx, create_xlsx, create_pptx, create_pdf, docs_read / docs_apply / docs_check, sheet_*, slides_*, render, guide, search, image, media, open) cộng thêm luồng dựng deck từng bước deck_start → deck_page → deck_build → deck_replace. Ops, spec và Markdown được truyền nội tuyến (inline), nên client không có hệ thống file vẫn dùng được.
+B · Máy chủ HTTP nội bộ
+Chạy bên trong app GenOffice tại http://127.0.0.1:3093/mcp (Streamable HTTP, kèm SSE cũ). Các tool của nó điều khiển một tab soạn thảo Word nhìn thấy được: create_session, insert_content, replace_blocks, apply_ops, read_document, save_session, và bạn nhìn thấy tài liệu dần thành hình. Tắt mặc định; bật lên trong cùng panel cài đặt.
+C · genoffice mcp --http
+Bộ tool stdio dưới dạng máy chủ Streamable HTTP cho các client trên máy khác: container, sandbox, máy dùng chung trong mạng của bạn. File đi kèm theo các lời gọi: PUT /files/<name> tải lên một file và trả về URL, mọi tham số file đều nhận URL http(s), và tool nào ghi ra file sẽ trả lại dưới dạng URL tải xuống, kèm theo (khi file nhỏ) dữ liệu bytes dưới dạng MCP resource. --host 0.0.0.0 mở ra mạng, --token bảo vệ nó.
 # Claude Code
 claude mcp add --transport stdio genoffice -- genoffice mcp
-```
-
-```jsonc
 // Cursor, Claude Desktop or any other MCP client
 { "mcpServers": { "genoffice": { "command": "genoffice", "args": ["mcp"] } } }
-```
-
-```bash
 # On the machine that has GenOffice (private network; add --token for a shared box)
 genoffice mcp --http 3093 --host 0.0.0.0 --token "$GENOFFICE_MCP_TOKEN"
 
@@ -392,29 +329,22 @@ curl -T report.docx -H "Authorization: Bearer $GENOFFICE_MCP_TOKEN" http://serve
 #   → { "url": "http://server:3093/files/<id>/report.docx", ... }
 #   docs_read({ "file": "http://server:3093/files/<id>/report.docx" })
 #   docs_apply(...) → output_url, downloadable with curl -o
-```
-
-Over HTTP every session gets a private scratch folder, relative paths and deck
-folders resolve inside it, `open` is not offered, and with
-`GENOFFICE_ALLOWED_ROOTS` unset the tools cannot leave the server's own file
-store. `render`, `convert` to PDF and `create_pdf` still start a hidden
-GenOffice process, so a headless host needs the app installed and a virtual
-display (`xvfb-run`).
-
-`genoffice` here is the CLI shipped inside the app (on macOS
-`/Applications/GenOffice.app/Contents/Resources/cli/genoffice`; the settings
-pane prints the exact path for your install). The server carries its own
-workflow instructions and exposes the op references as `genoffice://guide/*`
-resources, so no skill is needed; the skill and the MCP server can coexist and
-the assistant picks one. Cloud features (`search`, `image`, `media`) still go
-through the provider configured in GenOffice; everything else runs locally, and
-`GENOFFICE_ALLOWED_ROOTS` confines every tool to the folders you list.
-
-The renewable-energy deck in the [demo](#demo) is what one prompt in Claude Code
-with only the `genoffice` MCP server attached looks like from the protocol
-side:
-
-```text
+Qua HTTP, mỗi session được cấp một thư mục scratch riêng, đường dẫn tương đối
+và thư mục deck được giải quyết trong đó, open không được cung cấp, và khi
+chưa đặt GENOFFICE_ALLOWED_ROOTS thì các tool không thể ra khỏi kho file của
+chính server. render, convert sang PDF và create_pdf vẫn khởi động một
+tiến trình GenOffice ẩn, nên máy headless cần cài sẵn app và một màn hình ảo
+(xvfb-run).
+genoffice ở đây là CLI đi kèm trong app (trên macOS là
+/Applications/GenOffice.app/Contents/Resources/cli/genoffice; panel cài đặt in
+ra đường dẫn chính xác cho bản cài của bạn). Server mang sẵn hướng dẫn quy
+trình và công khai tài liệu op dưới dạng resource genoffice://guide/*, nên
+không cần skill; skill và MCP server có thể cùng tồn tại và assistant sẽ chọn
+một trong hai. Các tính năng cloud (search, image, media) vẫn đi qua
+provider đã cấu hình trong GenOffice; mọi thứ khác chạy cục bộ, và
+GENOFFICE_ALLOWED_ROOTS giới hạn mọi tool trong các thư mục bạn liệt kê.
+Deck năng lượng tái tạo trong demo là hình ảnh một prompt trong
+Claude Code chỉ gắn mỗi MCP server genoffice nhìn từ phía giao thức:
 capabilities · guide(slides, spec) · guide(slides, design)
 search(query) ×4                         → IEA, BNEF and IRENA figures for the slides
 search(query, images) ×7 · media(url, ask) ×7
@@ -427,79 +357,66 @@ slides_audit(file) · slides_render(file, out)
                                          → no layout findings; 8 PNGs come back as image content
 deck_replace(dir, n, page) ×3 · slides_render(file, out)
                                          → three pages fixed after looking at the renders
-```
-
-Thirty-eight calls, about thirteen minutes, and the assistant never touched a
-shell: the figures, the photos, the guides, the checks and the renders all
-travelled as MCP tool results. Only `search` and `media` left the machine, to
-the provider configured in GenOffice.
-
-## Download
-
-| Platform                             | Requirements                                          | Download                                                                                  |
-| ------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| **macOS** — Apple Silicon (arm64)    | macOS 11+                                             | [Latest `.dmg` (arm64)](https://github.com/quyen2867/genoffice/releases/latest)         |
-| **macOS** — Intel (x64)              | macOS 11+                                             | [Latest `.dmg` (x64)](https://github.com/quyen2867/genoffice/releases/latest)           |
-| **Windows** (x64, most PCs)          | Windows 10+, Intel/AMD                                | [Latest `-x64.exe` installer](https://github.com/quyen2867/genoffice/releases/latest)   |
-| **Windows** on Arm (ARM64)           | Windows 11 on Arm (Snapdragon X and similar)          | [Latest `-arm64.exe` installer](https://github.com/quyen2867/genoffice/releases/latest) |
-| **Linux** — Debian / Ubuntu          | x86_64, glibc 2.34+ (Ubuntu 22.04 or newer)           | [Latest `.deb`](https://github.com/quyen2867/genoffice/releases/latest)                 |
-| **Linux** — Fedora / RHEL / openSUSE | x86_64, glibc 2.34+ (Fedora 35+, RHEL 9+, Leap 15.6+) | [Latest `.rpm`](https://github.com/quyen2867/genoffice/releases/latest)                 |
-| **Linux** — other distributions      | x86_64, glibc 2.34+, FUSE 2                           | [Latest `.AppImage`](https://github.com/quyen2867/genoffice/releases/latest)            |
-
-All builds come from `main`; the macOS and Windows installers are signed.
-Older versions are on the [Releases](https://github.com/quyen2867/genoffice/releases) page.
-
+Ba mươi tám lời gọi, khoảng mười ba phút, và assistant không hề chạm vào
+shell: số liệu, ảnh, hướng dẫn, kết quả kiểm tra và bản render đều đi qua dưới
+dạng kết quả MCP tool. Chỉ search và media rời khỏi máy, tới provider đã
+cấu hình trong GenOffice.
+Tải xuống
+Nền tảng
+Yêu cầu
+Tải xuống
+macOS — Apple Silicon (arm64)
+macOS 11+
+.dmg (arm64) mới nhất
+macOS — Intel (x64)
+macOS 11+
+.dmg (x64) mới nhất
+Windows (x64, đa số PC)
+Windows 10+, Intel/AMD
+Trình cài đặt -x64.exe mới nhất
+Windows trên Arm (ARM64)
+Windows 11 trên Arm (Snapdragon X và tương tự)
+Trình cài đặt -arm64.exe mới nhất
+Linux — Debian / Ubuntu
+x86_64, glibc 2.34+ (Ubuntu 22.04 trở lên)
+.deb mới nhất
+Linux — Fedora / RHEL / openSUSE
+x86_64, glibc 2.34+ (Fedora 35+, RHEL 9+, Leap 15.6+)
+.rpm mới nhất
+Linux — các bản phân phối khác
+x86_64, glibc 2.34+, FUSE 2
+.AppImage mới nhất
+Mọi bản build đều từ nhánh main; trình cài đặt macOS và Windows đã được ký.
+Các phiên bản cũ hơn có trên trang Releases.
 <details>
-<summary><b>Installing on Linux</b></summary>
-
-The deb installs with apt — it pulls in the dependencies and adds GenOffice
-to the applications menu:
-
-```bash
+<summary><b>Cài đặt trên Linux</b></summary>
+Gói deb cài bằng apt — nó tự kéo các phụ thuộc và thêm GenOffice vào menu ứng
+dụng:
 sudo apt install ./genoffice_<version>_amd64.deb
-```
-
-On Fedora / RHEL-family / openSUSE, install the rpm instead:
-
-```bash
+Trên Fedora / họ RHEL / openSUSE, cài gói rpm thay thế:
 sudo dnf install ./genoffice-<version>.x86_64.rpm     # Fedora / RHEL family
 sudo zypper install ./genoffice-<version>.x86_64.rpm  # openSUSE
-```
-
-The AppImage runs in place: install the FUSE 2 runtime
-(`sudo apt install libfuse2`; on Ubuntu 24.04 the package is `libfuse2t64`),
-make the file executable, then run it:
-
-```bash
+AppImage chạy tại chỗ: cài runtime FUSE 2
+(sudo apt install libfuse2; trên Ubuntu 24.04 gói tên là libfuse2t64),
+cấp quyền thực thi cho file, rồi chạy:
 chmod +x GenOffice-<version>.AppImage
 ./GenOffice-<version>.AppImage
-```
-
 </details>
-
-## How it works
-
-Seven Electron apps — Docs, Sheets, Slides, PDF, Markdown, HTML and the
-tabbed shell — share one engine layer of pure TypeScript packages plus a Rust
-sidecar for `.xlsx`. The original file is always the source of truth: edits
-are applied as narrow patches, and everything the editor did not touch
-survives the round trip untouched.
-
-```
+Cách hoạt động
+Bảy app Electron — Docs, Sheets, Slides, PDF, Markdown, HTML và shell dạng
+tab — dùng chung một lớp engine gồm các package TypeScript thuần túy cộng một
+sidecar Rust cho .xlsx. File gốc luôn là nguồn chân lý: các chỉnh sửa được
+áp dụng dưới dạng patch hẹp, và mọi thứ editor không chạm tới đều nguyên vẹn
+sau một vòng đi-về.
 open docx ─► archive original by hash (never touched)
           ─► parse word/document.xml into a block tree, each block anchored to its original XML
           ─► Tiptap editor (manual + AI editing, dirty tracking)
 save      ─► dirty blocks → OOXML fragments (referencing existing styles only)
           ─► splice into the original document.xml; untouched blocks keep their bytes
           ─► repack the zip; every other entry is copied byte-for-byte
-```
-
-The package-by-package tour (docx/pptx engines, `pdf2docx`, `html2docx`, the
-agent core and providers) lives in [CONTRIBUTING.md](CONTRIBUTING.md#engine-packages).
-
-## Development
-
-```bash
+Tour chi tiết từng package (engine docx/pptx, pdf2docx, html2docx, agent
+core và các provider) nằm trong CONTRIBUTING.md.
+Phát triển
 npm install
 npm run fixtures     # generate test .docx fixtures
 npm test             # engine + app unit tests (docs/sheets/slides need no display)
@@ -508,174 +425,130 @@ npm run dev          # all six editors + shell against Vite dev servers
 npm run dev:docs     # a single app (same pattern works per workspace)
 npm run dist:mac     # package macOS dmg (regenerates third-party notices)
 npm run dist:win     # package Windows nsis installer
-npm run dist:linux   # package Linux AppImage + deb + rpm
-```
-
-The sheets app additionally needs a Rust toolchain for its xlsx sidecar
-(`cargo` on PATH); `npm run build -w @genoffice/sheets` compiles it
-automatically. See [CONTRIBUTING.md](CONTRIBUTING.md) for the checks every
-change must pass and how pull requests land.
-
-## Community
-
-GenOffice is in active development and your feedback shapes it.
-
-- **Report a bug or request a feature** in
-  [GitHub Issues](https://github.com/quyen2867/genoffice/issues).
-- **Join the GenOffice group chat** on
-  [GenTeam](https://genoffice.ai/join) to talk to the team and other users.
-- **Follow [@merrickbuilds](https://x.com/merrickbuilds) on X** for release
-  notes, demos and what is being built next.
-- **Star the repo** if GenOffice is useful to you — it is the best way to
-  support the project.
-
-## FAQ
-
+npm run dist:linux   # đóng gói Linux AppImage + deb + rpm
+App bảng tính cần thêm Rust toolchain cho sidecar xlsx
+(cargo có trong PATH); lệnh npm run build -w @genoffice/sheets sẽ tự
+động biên dịch nó. Xem CONTRIBUTING.md để biết các kiểm
+tra bắt buộc cho mọi thay đổi và cách gửi pull request.
+Cộng đồng
+GenOffice đang được phát triển tích cực và phản hồi của bạn giúp định hình nó.
+Báo lỗi hoặc đề xuất tính năng tại
+  GitHub Issues.
+Tham gia nhóm chat GenOffice trên
+  GenTeam để trò chuyện với đội ngũ và cộng đồng.
+Theo dõi @merrickbuilds trên X để xem
+  ghi chú phát hành, demo và những gì sắp ra mắt.
+Star repo nếu GenOffice hữu ích với bạn — đó là cách ủng hộ dự án tốt nhất.
+Câu hỏi thường gặp
 <details>
-<summary><b>Is GenOffice free?</b></summary>
-
-Yes. GenOffice is free and open-source under the Apache-2.0 license — no
-trial, no paid tier for the apps themselves.
-
+<summary><b>GenOffice có miễn phí không?</b></summary>
+Có. GenOffice miễn phí và mã nguồn mở theo giấy phép Apache-2.0 — không
+dùng thử, không có gói trả phí cho các ứng dụng.
 </details>
-
 <details>
-<summary><b>Can GenOffice open Microsoft Word, Excel and PowerPoint files?</b></summary>
-
-Yes. GenOffice opens and saves native `.docx`, `.xlsx` and `.pptx` files.
-Saving is byte-preserving: parts of the file you didn't touch are written
-back byte-for-byte, so documents keep working in Microsoft Office.
-
+<summary><b>GenOffice có mở được file Microsoft Word, Excel và PowerPoint không?</b></summary>
+Có. GenOffice mở và lưu file .docx, .xlsx và .pptx nguyên bản.
+Việc lưu giữ nguyên từng byte: những phần file bạn không động đến sẽ được
+ghi lại y hệt byte-for-byte, nên tài liệu vẫn dùng bình thường trong Microsoft Office.
 </details>
-
 <details>
-<summary><b>Does GenOffice work offline?</b></summary>
-
-Document editing is fully local — files never leave your machine to be
-opened, edited, saved or converted. The AI features (agents, search, image
-tools) need a network connection, with either a Genspark sign-in or your own
-model API key.
-
+<summary><b>GenOffice có hoạt động ngoại tuyến không?</b></summary>
+Soạn thảo tài liệu hoàn toàn cục bộ — file không bao giờ rời khỏi máy của bạn
+để mở, chỉnh sửa, lưu hay chuyển đổi. Các tính năng AI (agent, tìm kiếm, công
+cụ hình ảnh) cần kết nối mạng, dùng tài khoản Genspark đăng nhập sẵn không cần
+key, hoặc API key của chính bạn.
 </details>
-
 <details>
-<summary><b>Can GenOffice edit PDF files?</b></summary>
-
-Yes — real PDF text and image editing that rewrites the page content stream
-with the original fonts preserved, not cover-up annotations.
-
+<summary><b>GenOffice có chỉnh sửa được file PDF không?</b></summary>
+Có — chỉnh sửa văn bản và hình ảnh PDF thật sự, ghi lại trực tiếp luồng nội
+dung của trang mà vẫn giữ nguyên font gốc, không phải kiểu chú thích che phủ.
 </details>
-
 <details>
-<summary><b>Can GenOffice convert PDF to Word, Excel or PowerPoint?</b></summary>
-
-Yes — entirely on-device: PDFium character-level extraction plus
-geometry-based layout analysis, no cloud service, no upload. Scanned pages
-are covered too: on macOS and Windows the system OCR reads them, so they
-convert to editable text rather than a page image.
-
+<summary><b>GenOffice có chuyển PDF sang Word, Excel hoặc PowerPoint được không?</b></summary>
+Có — hoàn toàn trên thiết bị: trích xuất PDFium ở cấp độ ký tự kết hợp phân
+tích bố cục theo hình học, không qua dịch vụ đám mây, không tải lên. Trang
+quét scan cũng được hỗ trợ: trên macOS và Windows, OCR của hệ thống sẽ đọc
+chúng, nên chúng được chuyển thành văn bản chỉnh sửa được thay vì ảnh trang.
 </details>
-
 <details>
-<summary><b>Can I use my own AI model or API key?</b></summary>
-
-Yes. Besides the keyless Genspark sign-in, GenOffice supports bring your own
-key for Claude, OpenAI, Gemini, DeepSeek, Kimi, GLM, Qwen, Doubao, MiniMax,
-Grok, Mistral, OpenRouter, Requesty, Opper and OpenCode Zen/Go, plus any OpenAI-compatible
-endpoint — including local model servers. Search, image generation and
-image/video analysis take their own keys under Settings → AI Media & Search.
-
+<summary><b>Tôi có thể dùng model AI hoặc API key của riêng mình không?</b></summary>
+Có. Ngoài đăng nhập Genspark không cần key, GenOffice hỗ trợ dùng key của
+riêng bạn cho Claude, OpenAI, Gemini, DeepSeek, Kimi, GLM, Qwen, Doubao, MiniMax,
+Grok, Mistral, OpenRouter, Requesty, Opper và OpenCode Zen/Go, cộng mọi
+endpoint tương thích OpenAI — kể cả server model chạy cục bộ. Tìm kiếm, tạo
+ảnh và phân tích ảnh/video dùng key riêng trong mục Settings → AI Media & Search.
 </details>
-
 <details>
-<summary><b>Can GenOffice convert HTML to Word?</b></summary>
-
-Yes — Export as Word in the HTML app produces a native, editable `.docx`
-entirely on-device. The page is rendered in the built-in Chromium and reduced
-to real Word structures: headings, paragraphs, lists, tables, cards, KPI rows,
-form fields and page backgrounds; only visuals with no Word counterpart
-(charts, icons, decorated boxes) are embedded as pictures.
-
+<summary><b>GenOffice có chuyển HTML sang Word được không?</b></summary>
+Có — chức năng Export as Word trong app HTML tạo ra file .docx chỉnh sửa
+được hoàn toàn trên thiết bị. Trang được render trong Chromium tích hợp rồi
+rút gọn thành cấu trúc Word thật: tiêu đề, đoạn văn, danh sách, bảng, thẻ,
+hàng KPI, trường biểu mẫu và nền trang; chỉ những yếu tố không có đối ứng
+trong Word (biểu đồ, icon, hộp trang trí) mới được nhúng dưới dạng ảnh.
 </details>
-
 <details>
-<summary><b>Can I drive GenOffice from Claude Code, Codex, Cursor or a script?</b></summary>
-
-Yes. GenOffice installs a `genoffice` command line that runs the same engines
-headless: inspect, convert, create, read and edit documents from a terminal or
-a script, with `--json` output for programs. The bundled agent skill teaches
-Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode and Windsurf
-to use it; install it from **Settings → Integrations**. See
-[Command line and agent skill](#command-line-and-agent-skill).
-
+<summary><b>Tôi có thể điều khiển GenOffice từ Claude Code, Codex, Cursor hoặc script không?</b></summary>
+Có. GenOffice cài sẵn lệnh dòng lệnh genoffice chạy các engine tương tự ở
+chế độ headless: xem, chuyển đổi, tạo, đọc và chỉnh sửa tài liệu từ terminal
+hoặc script, với đầu ra --json cho chương trình xử lý. Skill agent đi kèm
+hướng dẫn Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode và
+Windsurf cách dùng nó; cài đặt từ Settings → Integrations. Xem
+Command line and agent skill.
 </details>
-
 <details>
-<summary><b>Does GenOffice collect any data?</b></summary>
-
-Official packaged builds send limited usage analytics by default, and you can
-disable reporting at any time under Settings → General. Analytics never sends
-document content, file names, file paths, account identity or email
-addresses. See [GenOffice Privacy](PRIVACY.md) for the complete event and
-data disclosures.
-
+<summary><b>GenOffice có thu thập dữ liệu nào không?</b></summary>
+Bản dựng chính thức gửi một lượng giới hạn phân tích sử dụng theo mặc định,
+và bạn có thể tắt báo cáo bất cứ lúc nào trong Settings → General. Phân tích
+không bao giờ gửi nội dung tài liệu, tên file, đường dẫn file, danh tính tài
+khoản hay địa chỉ email. Xem GenOffice Privacy để biết đầy đủ
+thông tin về các sự kiện và dữ liệu được thu thập.
 </details>
-
-## Security
-
-See [SECURITY.md](SECURITY.md) for the process security posture (renderer
-sandboxing, IPC validation, external-link gating) and the threat models for
-AI-generated content.
-
-## Acknowledgements
-
-GenOffice would not be possible without these open-source projects:
-
-- [Electron](https://www.electronjs.org/) — the desktop runtime for every app.
-- [Univer](https://github.com/dream-num/univer) (Apache-2.0) — the spreadsheet
-  UI core that Sheets extends.
-- [PDFium](https://pdfium.googlesource.com/pdfium/) (BSD-3-Clause, bundled via
-  [@embedpdf/pdfium](https://github.com/embedpdf/embed-pdf-viewer)) — the
-  content-stream engine behind true PDF text and image editing.
-- [pdf.js](https://github.com/mozilla/pdf.js) (Apache-2.0) and
-  [pdf-lib](https://github.com/Hopding/pdf-lib) (MIT) — PDF rendering and
-  document assembly.
-- [Tiptap](https://tiptap.dev/) / [ProseMirror](https://prosemirror.net/) —
-  the block editors in Docs and Markdown.
-- [CodeMirror](https://codemirror.net/) (MIT) — the source editor in HTML.
-- [Konva](https://konvajs.org/) — canvas rendering for Slides and Sheets
-  charts.
-- [HarfBuzz](https://github.com/harfbuzz/harfbuzz) (wasm) — text-shaping
-  metrics for complex scripts.
-- [calamine](https://github.com/tafia/calamine) and
-  [IronCalc](https://github.com/ironcalc/IronCalc) — the read and calc layers
-  of the Rust xlsx sidecar.
-- [libeot](https://github.com/umanwizard/libeot) (MPL-2.0) — the MicroType
-  Express decoder for embedded PowerPoint fonts, ported to TypeScript.
-- [React](https://react.dev/) (MIT) — the UI layer of every app.
-- [Mermaid](https://mermaid.js.org/) (MIT) and [KaTeX](https://katex.org/)
-  (MIT) — diagrams and math in Markdown and Docs.
-- [opentype.js](https://opentype.js.org/) (MIT) — font parsing for metrics
-  and glyph lookup.
-- [JSZip](https://stuk.github.io/jszip/) (MIT) and
-  [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser)
-  (MIT) — the OOXML container and XML layers.
-- [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons)
-  (MIT) — the icon set across the ribbons.
-- [electron-updater](https://www.electron.build/) (MIT) — in-app updates.
-- Liberation, Carlito, Caladea, and Noto CJK fonts (OFL/Apache-2.0) — bundled
-  document fonts.
-
-`npm run notices` regenerates the bundled third-party license summary
-(`tools/gen-third-party-notices.mjs`); all runtime dependencies are
+Bảo mật
+Xem SECURITY.md để biết tư thế bảo mật của tiến trình (sandbox
+renderer, kiểm tra IPC, chặn liên kết ngoài) và các mô hình đe dọa đối với
+nội dung do AI tạo ra.
+Ghi nhận
+GenOffice không thể ra đời nếu thiếu các dự án mã nguồn mở này:
+Electron — runtime desktop cho mọi app.
+Univer (Apache-2.0) — lõi UI bảng
+  tính mà Sheets mở rộng.
+PDFium (BSD-3-Clause, đóng gói qua
+  @embedpdf/pdfium) — engine
+  luồng nội dung đứng sau khả năng chỉnh sửa văn bản và hình ảnh PDF thật.
+pdf.js (Apache-2.0) và
+  pdf-lib (MIT) — render PDF và lắp ráp
+  tài liệu.
+Tiptap / ProseMirror —
+  trình soạn thảo khối trong Docs và Markdown.
+CodeMirror (MIT) — trình soạn mã nguồn trong HTML.
+Konva — render canvas cho Slides và biểu đồ Sheets.
+HarfBuzz (wasm) — số liệu tạo hình
+  văn bản cho chữ viết phức tạp.
+calamine và
+  IronCalc — lớp đọc và tính toán
+  của sidecar xlsx viết bằng Rust.
+libeot (MPL-2.0) — bộ giải mã
+  MicroType Express cho font nhúng trong PowerPoint, được port sang TypeScript.
+React (MIT) — lớp giao diện của mọi app.
+Mermaid (MIT) và KaTeX
+  (MIT) — sơ đồ và công thức toán trong Markdown và Docs.
+opentype.js (MIT) — phân tích font để lấy số
+  liệu và tra cứu glyph.
+JSZip (MIT) và
+  fast-xml-parser
+  (MIT) — lớp container OOXML và XML.
+Fluent UI System Icons
+  (MIT) — bộ icon trên các ribbon.
+electron-updater (MIT) — cập nhật trong app.
+Font Liberation, Carlito, Caladea và Noto CJK (OFL/Apache-2.0) — font tài
+  liệu đóng gói sẵn.
+Lệnh npm run notices tái tạo bản tóm tắt giấy phép bên thứ ba đi kèm
+(tools/gen-third-party-notices.mjs); mọi dependency runtime đều là
 MIT/Apache-2.0/BSD-3-Clause/OFL.
-
-## License
-
-GenOffice is licensed under the [Apache License 2.0](LICENSE), with one
-exception: the `ee/` directory is reserved for future enterprise modules and
-is covered by the [GenOffice Enterprise License](ee/LICENSE).
-
-The GenOffice and Genspark names and logos are trademarks of Mainfunc, Inc.
-The Apache-2.0 license does not grant permission to use them (see section 6);
-forks should use their own branding.
+Giấy phép
+GenOffice được cấp phép theo Apache License 2.0, với một ngoại
+lệ: thư mục ee/ dành riêng cho các module doanh nghiệp trong tương lai và
+chịu GenOffice Enterprise License.
+Tên và logo GenOffice, Genspark là thương hiệu của Mainfunc, Inc.
+Giấy phép Apache-2.0 không cho phép sử dụng chúng (xem mục 6); các bản fork
+nên dùng thương hiệu của riêng mình.
